@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  quarto:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: quarto-container
+    volumes:
+      - ../:/workspace
+    command: sleep infinity
+ 

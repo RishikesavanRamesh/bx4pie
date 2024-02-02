@@ -1,0 +1,27 @@
+{
+	"name": "quarto-code",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "quarto",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/"
+	// "customizations": {
+	// 		"vscode": {
+	// 				"extensions": [
+	// 						"mongodb.mongodb-vscode",
+	// 						"dsznajder.es7-react-js-snippets",
+	// 						"bradlc.vscode-tailwindcss",
+	// 						"esbenp.prettier-vscode",
+	// 						"ms-azuretools.vscode-docker",
+	// 						"Postman.postman-for-vscode",
+	// 						"moalamri.inline-fold",
+	// 						"team-sapling.sapling",
+	// 						"formulahendry.auto-rename-tag",
+	// 						"formulahendry.auto-close-tag",
+	// 						"planbcoding.vscode-react-refactor"
+	// 				]
+	// 		}
+	// }
+	// "features": {
+	//      "ghcr.io/devcontainers-contrib/features/ts-node:1": {}
+	// }
+}
