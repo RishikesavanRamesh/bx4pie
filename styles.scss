@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+
+$primary-color: blue;
+
+/*-- scss:rules --*/
+
+body {
+  background-color: rgb(199, 142, 142);
+  color: $primary-color;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.footer {
+  font-size: 0.35em !important;
+  text-align: right !important;
+  background-color: $primary-color;
+  color: rgb(64, 209, 51) !important;
+  height: 2.5cm;
+  position: relative;
+  display: flex;
+  justify-content: space-between; /* Align items on the right side */
+  align-items: center; /* Center items vertically */
+}
+
+.footer .white-strip {
+  background-color: rgb(124, 45, 45);
+  height: 0.5cm;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+
+/*-- scss:mixins --*/
+
+/*-- scss:functions --*/
+
+/*-- scss:uses --*/

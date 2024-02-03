@@ -1,0 +1,101 @@
+---
+title: Your Presentation Title
+author: Your Name
+date: 01.2.2024
+format: 
+  revealjs:
+    logo: https://mcet.in/nia/images/logo.gif
+    footer: "this is sparta"
+---
+
+# Introduction
+
+- Welcome to the presentation
+- Brief overview of the topics to be covered
+
+---
+
+# Agenda
+
+1. Introduction
+2. Problem Statement
+3. Background
+4. Objectives
+5. Key Findings
+6. Solutions
+7. Implementation Plan
+8. Benefits
+9. Challenges
+10. Conclusion
+11. Q&A
+
+::: footer white-strip
+tjosasdfasd
+:::
+---
+
+# Problem Statement
+
+- Clearly define the problem or issue
+
+---
+
+# Background
+
+- Provide relevant context and background information
+
+---
+
+# Objectives
+
+- Clearly state the objectives of the presentation
+
+---
+
+# Key Findings
+
+- Present key findings or insights
+
+---
+
+# Solutions
+
+- Propose potential solutions or actions
+
+---
+
+# Implementation Plan
+
+- Outline steps for implementing the proposed solutions
+
+---
+
+# Benefits
+
+- Highlight the benefits of implementing the solutions
+
+---
+
+# Challenges
+
+- Address potential challenges or obstacles
+
+---
+
+# Conclusion
+
+- Summarize key points
+- Call to action or next steps
+
+---
+
+# Q&A
+
+- Open the floor for questions and answers
+
+---
+
+# Thank You!
+
+- Express gratitude for the audience's time
+- Contact information for further inquiries
