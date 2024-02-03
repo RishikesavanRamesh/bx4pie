@@ -3,7 +3,14 @@
 	"dockerComposeFile": ["docker-compose.yml"],
 	"service": "quarto",
 	"shutdownAction": "none",
-	"workspaceFolder": "/workspace/"
+	"workspaceFolder": "/workspace/",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"quarto.quarto"
+			]
+		}
+	}
 	// "customizations": {
 	// 		"vscode": {
 	// 				"extensions": [

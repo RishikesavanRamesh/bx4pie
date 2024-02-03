@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     fonts-noto \
     git \
     wget \
+    python3 \
+    python3-pip \ 
     && rm -rf /var/lib/apt/lists/*
 
 # Install TinyTeX
@@ -23,6 +25,8 @@ ENV PATH="/root/.TinyTeX/bin/x86_64-linux:$PATH"
 
 # Install some additional LaTeX packages
 RUN tlmgr install collection-langenglish
+
+RUN pip3 install jupyter
 
 # Install R packages
 RUN R -e "install.packages(c('shiny', 'jsonlite', 'ggplot2', 'htmltools', 'remotes', 'renv', 'knitr', 'rmarkdown'), repos='http://cran.rstudio.com/')"
