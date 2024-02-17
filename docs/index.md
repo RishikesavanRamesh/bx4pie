@@ -8,3 +8,4 @@
         ...       # Other markdown pages, images and other files.
 
 ## conributing guide
+ thanks for the thought
