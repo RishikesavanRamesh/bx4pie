@@ -1,7 +1,7 @@
 site_name: BX4PIE
 site_description: 'An Opensource controller for your DIY robots'
 site_author: 'Rishikesavan Ramesh'
-docs_dir: docs/
+docs_dir: ../../docs
 repo_name: 'rishikesavanramesh/bx4pie'
 repo_url: 'https://github.com/RishikesavanRamesh/bx4pie/'
 nav:
@@ -9,4 +9,4 @@ nav:
 theme:
   name: 'material'
 extra_css:
-  - style.scss
+  - ../../docs/style.scss
