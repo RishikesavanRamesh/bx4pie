@@ -1,2 +1,1 @@
-mkdocs-mkdocs
-mkdocs-readthedocs
+mkdocs-rtd-dropdown
