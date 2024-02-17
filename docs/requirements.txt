@@ -1,3 +1,2 @@
 mkdocs-rtd-dropdown
 mkdocs-bootswatch
-mkdocs-readthedocs
