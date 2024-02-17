@@ -1,39 +1,27 @@
-/*-- scss:defaults --*/
-
-$primary-color: red;
-
-/*-- scss:rules --*/
-
-body {
-  background-color: rgb(199, 142, 142);
-  color: $primary-color;
-  font-family: Arial, sans-serif;
-  margin: 0;
+div.col-md-9 h1:first-of-type {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
 }
 
-.footer {
-  font-size: 0.35em !important;
-  text-align: right !important;
-  background-color: $primary-color;
-  color: rgb(64, 209, 51) !important;
-  height: 2.5cm;
-  position: relative;
-  display: flex;
-  justify-content: space-between; /* Align items on the right side */
-  align-items: center; /* Center items vertically */
+div.col-md-9>p:first-of-type {
+  text-align: center;
 }
 
-.footer .white-strip {
-  background-color: rgb(124, 45, 45);
-  height: 0.5cm;
-  width: 100%;
-  position: absolute;
-  top: 25%;
-  left: 0;
+div.col-md-9 p.admonition-title:first-of-type {
+  text-align: left;
 }
 
-/*-- scss:mixins --*/
+div.col-md-9 h1:first-of-type .headerlink {
+  display: none;
+}
 
-/*-- scss:functions --*/
+code.no-highlight {
+  color: black;
+}
 
-/*-- scss:uses --*/
+/* Definition List styles */
+
+dd {
+  padding-left: 20px;
+}

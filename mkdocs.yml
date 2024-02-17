@@ -6,7 +6,36 @@ repo_url: 'https://github.com/RishikesavanRamesh/bx4pie/'
 docs_dir: docs/
 nav:
     - Home: index.md
-theme:
-  name: 'rtd-dropdown'
+theme: 
+    name: rtd-dropdown
+    # Default settings
+    collapse_by_default: false
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+    # Development Settings
+    #name: null
+    #custom_dir: 'rtd_dropdown/'
+
+repo_url: https://github.com/cjsheets/readthedocs-dropdown
+
+nav:
+    - MkDocs: index.md
+    - User Guide:
+        - Writing Your Docs: index.md
+        - Styling Your Docs: index.md
+        - Configuration: index.md
+        - Deploying Your Docs: index.md
+        - Custom Themes: index.md
+        - Plugins: index.md
+    - About:
+        - Release Notes: about/release-notes.md
+        - Contributing: about/contributing.md
+        - License: about/license.md
+
 extra_css:
-  - docs/style.scss
+    - styles.css
+
+plugins:
+    - search
