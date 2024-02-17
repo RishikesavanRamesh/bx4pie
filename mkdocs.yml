@@ -1,15 +1,10 @@
-site_name: bx4pie
-site_url:
+site_name: BX4PIE
+site_description: 'An Opensource controller for your DIY robots'
+site_author: 'Rishikesavan Ramesh'
+docs_dir: docs/
+repo_name: 'rishikesavanramesh/bx4pie'
+repo_url: 'https://github.com/RishikesavanRamesh/bx4pie/'
 nav:
     - Home: index.md
-    - Version 2.x:
-        - Getting Started: v2/getting-started.md
-        - Types:
-            - Comments: v2/types/comments.md
-    - Version 1.x:
-        - Types:
-            - Comments: v1/types/comments.md
-            - Posts: v1/types/posts.md
-
-
-theme: readthedocs
+theme:
+  name: 'material'
