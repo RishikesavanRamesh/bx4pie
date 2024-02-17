@@ -22,8 +22,8 @@ nav:
         - Contributing: about/contributing.md
         - License: about/license.md
 
-extra_css:
-    - styles.css
+# extra_css:
+#     - styles.css
 
 plugins:
     - search
