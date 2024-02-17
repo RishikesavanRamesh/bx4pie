@@ -7,13 +7,8 @@ docs_dir: docs/
 nav:
     - Home: index.md
 theme: 
-    name: readthedocs
-    # Default settings
-    collapse_by_default: false
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - django
+    name: minty
+
 
 repo_url: https://github.com/cjsheets/readthedocs-dropdown
 
