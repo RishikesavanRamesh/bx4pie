@@ -8,10 +8,6 @@ nav:
     - Home: index.md
 theme: 
     name: spacelab
-
-
-repo_url: https://github.com/cjsheets/readthedocs-dropdown
-
 nav:
     - MkDocs: index.md
     - User Guide:
