@@ -1,2 +1,2 @@
-mkdocs
-readthedocs
+mkdocs-mkdocs
+mkdocs-readthedocs
