@@ -1,0 +1,2 @@
+mkdocs-rtd-dropdown
+mkdocs-bootswatch
